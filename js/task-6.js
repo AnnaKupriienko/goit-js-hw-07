@@ -1,4 +1,3 @@
-const controls = document.getElementById("controls");
 const input = document.querySelector("input");
 const createButton = document.querySelector("button[data-create]");
 const destroyButton = document.querySelector("button[data-destroy]");
@@ -21,7 +20,6 @@ function createBoxes(amount) {
     newDiv.style.height = `${30 + 10 * i}px`;
     newDiv.style.backgroundColor = getRandomHexColor();
     boxContainer.appendChild(newDiv)
-    console.log(newDiv)
   }
   input.value = '';
   }   
