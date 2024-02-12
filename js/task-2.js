@@ -25,5 +25,3 @@ gallery.insertAdjacentHTML("beforeend", images.map(
 );
 const img = document.querySelector("img")
 img.classList.add("item")
-console.log(img)
-console.log(gallery)
